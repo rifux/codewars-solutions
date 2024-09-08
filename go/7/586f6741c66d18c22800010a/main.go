@@ -28,10 +28,7 @@ func SequenceSum(start, end, step int) (result int) {
 		return 0
 	}
 	for i := start; i <= end; i += step {
-		if true {
-			result += i
-			//fmt.Println(i)
-		}
+		result += i
 	}
 	return result
 }
